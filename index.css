@@ -1,0 +1,74 @@
+*{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+}
+body{
+    background-color:  hsl(47, 88%, 63%);
+}
+main{
+    display: flex;
+    justify-content:space-around; 
+}
+.main{
+    background-color: hsl(0, 0%, 100%) ;
+    width: 490px;
+    height: 640px;
+    border-radius: 5%;
+    box-shadow: 10px 8px hsl(0, 0%, 7%);
+    margin-top:130px;
+    margin-bottom: 100px;
+    border: 1.5px solid  hsl(0, 0%, 7%);
+}
+.img > img{
+    width:435px;
+    border-radius: 10px;
+}
+.img{
+    margin-top:35px;
+    margin-left:25px;
+}
+.text,.second{
+    margin-left: 20px;
+    margin-right:40px;
+
+}
+.text>h3{
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 10px;
+    border-radius:10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.text>h2{
+    color: hsl(0, 0%, 7%);
+    font-weight:500;
+    font-size:100%;
+    padding-top: 10px;
+}
+.text>h1{
+    color: hsl(0, 0%, 7%);
+    font-weight:800;
+    font-size: 150%;
+    cursor: pointer;
+}
+.text>h1:hover{
+color: hsl(47, 88%, 63%);
+}
+.text>p{
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    font-size: 120%;
+}
+.second>img{
+width:45px;
+}
+.second>h4{
+    position: relative;
+    bottom:55px;
+    left: 60px;
+    font-size: 110%;
+    font-weight: 800;
+}
+
