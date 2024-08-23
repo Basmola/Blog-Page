@@ -21,7 +21,7 @@ main{
     border: 1.5px solid  hsl(0, 0%, 7%);
 }
 .img>svg{
-    margin:35px 1px 0px 22px;
+     margin: 30px 24px 0px;
 }
 svg{
     border-radius: 15px;
